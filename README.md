@@ -17,7 +17,7 @@ This section details how to make the base image.  Relatively few changes are mad
 4. Before clicking the 'WRITE' button, click on the gear icon below the 'WRTIE' button to open the 'Advanced options.'
 5. Check 'Enable SSH' and 'Use password authentication.'
 6. Then, check 'Set username and password' and type 'pi' for the 'Username' and 'raspberry' for 'Password.'
-7. Next, check 'Configure wireless LAN' and type 'RobotEcologyLab' for 'SSID' and 'NoMoGrits4Me' for 'Password.'
+7. Next, check 'Configure wireless LAN' and enter 'SSID' and 'Password' of the router.
 8. Change 'Wireless LAN country' to 'US.' Click 'SAVE' and click 'WRITE' button to start loading the image to the SD card.
 
 ## 2 - Register the RPi as a Robot

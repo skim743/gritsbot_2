@@ -13,7 +13,6 @@ Log into the Docker Hub with
 ```
 docker login
 ```
-Use "robotecology" for the username and "NoMoGrits4Me" for the password.
 
 After logging in, run
 ```
