@@ -1,6 +1,7 @@
-FROM multiarch/qemu-user-static:x86_64-arm as qemu # Needed for building the image on a computer instead on a Raspberry Pi
+# Lines 2 and 4 are eeded for building the image on a computer instead on a Raspberry Pi
+FROM multiarch/qemu-user-static:x86_64-arm as qemu
 FROM arm32v6/alpine
-COPY --from=qemu /usr/bin/qemu-arm-static /usr/bin # Needed for building the image on a computer instead on a Raspberry Pi
+COPY --from=qemu /usr/bin/qemu-arm-static /usr/bin
 
 #TODO find a better place to put .git-credentials
 COPY .git-credentials /root/.git-credentials
